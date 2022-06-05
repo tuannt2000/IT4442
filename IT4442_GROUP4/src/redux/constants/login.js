@@ -1,0 +1,5 @@
+export const POST_EMAIL = 'POST_EMAIL';
+
+export const POST_EMAIL_SUCCESS = 'POST_EMAIL_SUCCESS';
+
+export const POST_EMAIL_GOOGLE = 'POST_EMAIL_GOOGLE';

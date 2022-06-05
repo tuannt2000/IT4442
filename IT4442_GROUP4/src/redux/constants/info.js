@@ -1,0 +1,3 @@
+export const SET_STATUS_SIDEBAR = "SET_STATUS_SIDEBAR";
+
+export const SET_SIZE_SCREEN = "SET_SIZE_SCREEN";
