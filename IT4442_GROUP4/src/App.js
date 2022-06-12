@@ -9,6 +9,7 @@ import history from "./history";
 import User from "./pages/user/index";
 import Category from "./pages/category/index";
 import Department from "./pages/department";
+import Statistical from "./pages/statistical";
 import ForgotPassword from "./pages/forgotPassword/index";
 import ResetPassword from "./pages/resetPassword/index";
 import ChangePassword from "./pages/changePassword/index";
@@ -65,6 +66,9 @@ function App() {
                 </PrivateRoute>
                 <PrivateRoute path="/department">
                   <Department />
+                </PrivateRoute>
+                <PrivateRoute path="/statistical">
+                  <Statistical />
                 </PrivateRoute>
                 <Route path="/forgot-password">
                   <ForgotPassword />

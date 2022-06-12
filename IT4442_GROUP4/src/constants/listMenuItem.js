@@ -4,6 +4,7 @@ import {
     MeetingRoomRounded,
     Add,
     CategoryRounded,
+    Assistant
   } from "@material-ui/icons";
   import { ADMIN, MANAGER, USER } from "./listRole";
   
@@ -17,9 +18,10 @@ import {
             <AccountCircle />,
             <MeetingRoomRounded />,
             <CategoryRounded />,
+            <Assistant />
           ],
-          title: ["Home", "Add task", "User", "Department", "Category"],
-          pathName: ["/", "/create-request", "/user", "/department", "/category"],
+          title: ["Home", "Add task", "User", "Department", "Category", "Statistical"],
+          pathName: ["/", "/create-request", "/user", "/department", "/category", "/statistical"],
         };
   
       case USER:
