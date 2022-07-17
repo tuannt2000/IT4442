@@ -20,12 +20,11 @@ import CreateRequest from "./pages/request/create";
 import UpdateRequest from "./pages/request/update";
 import DetailRequest from "./pages/request/detail";
 import React, { useEffect, useState } from "react";
-import Lottie from "react-lottie";
 import "./App.css";
 import DotLoader from 'react-spinners/DotLoader';
 // import GifLoader from 'react-gif-loader';
 function App() {
-    const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true);

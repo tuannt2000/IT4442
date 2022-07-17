@@ -1,5 +1,4 @@
 import Input from '../../components/Input';
-import * as ReactDOM from 'react-dom';
 import Button from '../../components/Button';
 import { useThemes, Form } from './style';
 import { Grid, Box, CircularProgress, FormHelperText, Link } from '@material-ui/core';
@@ -8,13 +7,7 @@ import Title from '../../components/Title';
 import PropTypes from 'prop-types';
 import Google from '../../assets/img/gg.png';
 import { CLIENT_ID } from '../../constants/login';
-import React, { useEffect, useState } from "react";
-import Lottie from "react-lottie";
-import { useGoogleLogin } from 'react-use-googlelogin'
 
-// const responseGoogle = (response) => {
-//   console.log(response);
-// }
 const LoginRight = (props) => {
   const {
     onSubmit,

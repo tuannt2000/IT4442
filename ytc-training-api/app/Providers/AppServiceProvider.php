@@ -10,6 +10,7 @@ use App\Contracts\Services\Api\RequestChangeHistoryServiceInterface;
 use App\Contracts\Services\Api\RequestServiceInterface;
 use App\Contracts\Services\Api\ResetPasswordServiceInterface;
 use App\Contracts\Services\Api\RequestChangeDetailServiceInterface;
+use App\Contracts\Services\Api\CommentServiceInterface;
 use App\Services\Api\UserService;
 use App\Services\Api\CategoryService;
 use App\Services\Api\RoleService;
@@ -18,9 +19,8 @@ use App\Services\Api\RequestChangeHistoryService;
 use App\Services\Api\RequestChangeDetailService;
 use App\Services\Api\RequestService;
 use App\Services\Api\ResetPasswordService;
-use Illuminate\Support\ServiceProvider;
-use App\Contracts\Services\Api\CommentServiceInterface;
 use App\Services\Api\CommentService;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
