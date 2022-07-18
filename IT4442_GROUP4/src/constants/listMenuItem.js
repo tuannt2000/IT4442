@@ -33,9 +33,9 @@ import {
   
       case MANAGER:
         return {
-          icon: [<Home />, <Add />],
-          title: ["Home", "Add task"],
-          pathName: ["/", "/create-request"],
+          icon: [<Home />],
+          title: ["Home"],
+          pathName: ["/"],
         };
   
       default:
