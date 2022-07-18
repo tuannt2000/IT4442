@@ -15,40 +15,40 @@ class DeparmentTableSeeder extends Seeder
         $now = Carbon::now('Asia/Ho_Chi_Minh')->toDateTimeString();
         DB::table('deparments')->insert([
             [
-          'name' => 'HCNS',
-          'description' => 'Hành chính nhân sự',
-          'status'=> 1,
-          'created_at' =>  $now ,
-          'updated_at' =>  $now ,
-      ],
-     [
-          'name' => 'HB_1',
-          'description' => 'HB_1',
-          'status'=> 1,
-          'created_at' =>  $now ,
-          'updated_at' =>  $now ,
-      ],
-      [
-          'name' => 'HB_2',
-          'description' => 'HB_2',
-          'status'=> 1,
-          'created_at' =>  $now ,
-          'updated_at' =>  $now ,
-      ],
-      [
-          'name' => 'HB_3',
-          'description' => 'HB_3',
-          'status'=> 1,
-          'created_at' =>  $now ,
-          'updated_at' =>  $now ,
-      ],
-     [
-          'name' => 'HB_4',
-          'description' => 'HB_4',
-          'status'=> 1,
-          'created_at' =>  $now ,
-          'updated_at' =>  $now ,
-          ]
+                'name' => 'Ban điều hành',
+                'description' => 'Điều hành công ty, giao việc, quản lý công việc',
+                'status'=> 1,
+                'created_at' =>  $now ,
+                'updated_at' =>  $now ,
+            ],
+            [
+                'name' => 'Bộ phận kỹ thuật',
+                'description' => 'Sản xuất, chế tạo thiết bị, công cụ',
+                'status'=> 1,
+                'created_at' =>  $now ,
+                'updated_at' =>  $now ,
+            ],
+            [
+                'name' => 'Bộ phận bảo trì',
+                'description' => 'Sửa chữa, bảo trì các hệ thống',
+                'status'=> 1,
+                'created_at' =>  $now ,
+                'updated_at' =>  $now ,
+            ],
+            [
+                'name' => 'Bộ phận lắp đặp',
+                'description' => 'Vận chuyển lắp đặt',
+                'status'=> 1,
+                'created_at' =>  $now ,
+                'updated_at' =>  $now ,
+            ],
+            [
+                'name' => 'Bộ phận vận chuyển',
+                'description' => 'Vận chuyển dụng cụ',
+                'status'=> 1,
+                'created_at' =>  $now ,
+                'updated_at' =>  $now ,
+            ]
         ]);
     }
 }

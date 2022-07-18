@@ -23,7 +23,7 @@ class UserRepository extends BaseRepository implements UserRepositoryInterface
     {
         return $this
             ->getColumns(['id', 'name', 'email', 'role_id'], ['categories:category_id,name,description,status'])
-            ->where('role_id', Role::ROLE_ADMIN)
+            ->where('role_id', Role::ROLE_MANAGER)
             ->get();
     }
 

@@ -1,34 +1,19 @@
 import "./header.css";
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import React, { useState } from 'react';
-import { Button, Toolbar } from '@material-ui/core';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
-  const history = useHistory();
-//   const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
-const memory = () => {
-    history.push('/memory');
-  }
+    const history = useHistory();
+    const memory = () => {
+        history.push('/memory');
+    }
 
-// //   const post = () => {
-// //     history.push('/post');
-//   }
-const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')));
 
   return (
-    // <div className="header">
-    //   <div className="headerTitles">
-    //     <span className="headerTitleSm">React & Node</span>
-    //     <span className="headerTitleLg">Blog</span>
-    //   </div>
-    //   <img
-    //     className="headerImg"
-    //     src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-    //     alt=""
-    //   />
     <div>
-              <header class="masthead text-center text-white">
+        <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
                     <h1 class="masthead-heading mb-0">Writing Diary Everyday</h1>

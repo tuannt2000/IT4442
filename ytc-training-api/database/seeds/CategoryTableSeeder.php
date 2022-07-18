@@ -21,13 +21,6 @@ class CategoryTableSeeder extends Seeder
                 'updated_at' =>  $now ,
             ],
             [
-                'name' => 'Bảo trì điện nhà dân',
-                'description' => 'Phụ trách quản lý các vấn đề tài chính công ty',
-                'status' => 1,
-                'created_at' =>  $now ,
-                'updated_at' =>  $now ,
-            ],
-            [
                 'name' => 'Cơ sở vật chất',
                 'description' => 'Quản lý cơ sở vật chất',
                 'status' => 1,
@@ -37,13 +30,6 @@ class CategoryTableSeeder extends Seeder
             [
                 'name' => 'Bảo hiểm',
                 'description' => 'Phụ trách bảo hiểm của nhân viên trong công ty',
-                'status' => 1,
-                'created_at' =>  $now ,
-                'updated_at' =>  $now ,
-            ],
-            [
-                'name' => 'Vé xe',
-                'description' => 'Quản lý vé xe của nhân vien trong công ty',
                 'status' => 1,
                 'created_at' =>  $now ,
                 'updated_at' =>  $now ,

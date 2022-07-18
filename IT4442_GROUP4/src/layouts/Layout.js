@@ -33,7 +33,7 @@ const Layout = (props) => {
       setSizeScreenDispatch(getWindowDimensions());
       fetchCurrentUser();
       statusSideBarLocal !== null &&
-        setStatusSideBarStore(statusSideBarLocal === TRUE ? true : false);
+      setStatusSideBarStore(statusSideBarLocal === TRUE ? true : false);
     }
   }, [
     fetchCurrentUser,
